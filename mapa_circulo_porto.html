@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0780056f9ac1d3d97fbb5d5212715b20 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0780056f9ac1d3d97fbb5d5212715b20" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0780056f9ac1d3d97fbb5d5212715b20 = L.map(
+                "map_0780056f9ac1d3d97fbb5d5212715b20",
+                {
+                    center: [41.1832, -8.611],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_72cd03e7d9790cc9c2e327c6c24807c8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_72cd03e7d9790cc9c2e327c6c24807c8.addTo(map_0780056f9ac1d3d97fbb5d5212715b20);
+        
+    
+            var marker_cluster_0a3d698f6272928855cb50cef53d74b1 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_3c7d909c546ab4841ca9a214a5271756 = L.marker(
+                [41.1456, -8.614],
+                {
+}
+            ).addTo(marker_cluster_0a3d698f6272928855cb50cef53d74b1);
+        
+    
+        var popup_d16ea56684c9d5e0c187876b346e65d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1dff49bd92e12abd25ab0062193c8819 = $(`<div id="html_1dff49bd92e12abd25ab0062193c8819" style="width: 100.0%; height: 100.0%;"><b>Torre dos Clérigos</b></div>`)[0];
+                popup_d16ea56684c9d5e0c187876b346e65d2.setContent(html_1dff49bd92e12abd25ab0062193c8819);
+            
+        
+
+        marker_3c7d909c546ab4841ca9a214a5271756.bindPopup(popup_d16ea56684c9d5e0c187876b346e65d2)
+        ;
+
+        
+    
+    
+            marker_3c7d909c546ab4841ca9a214a5271756.bindTooltip(
+                `<div>
+                     Torre dos Clérigos
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9c8be6ea149a97bd08e0adc032fca96c = L.marker(
+                [41.1473, -8.615],
+                {
+}
+            ).addTo(marker_cluster_0a3d698f6272928855cb50cef53d74b1);
+        
+    
+        var popup_9ee87c527c68e3387cff84f31215f388 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72c0f6dd915a4d8f5bab04c777d87d04 = $(`<div id="html_72c0f6dd915a4d8f5bab04c777d87d04" style="width: 100.0%; height: 100.0%;"><b>Livraria Lello</b></div>`)[0];
+                popup_9ee87c527c68e3387cff84f31215f388.setContent(html_72c0f6dd915a4d8f5bab04c777d87d04);
+            
+        
+
+        marker_9c8be6ea149a97bd08e0adc032fca96c.bindPopup(popup_9ee87c527c68e3387cff84f31215f388)
+        ;
+
+        
+    
+    
+            marker_9c8be6ea149a97bd08e0adc032fca96c.bindTooltip(
+                `<div>
+                     Livraria Lello
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0fd084a7844e3b560041b8a2dbe3f07d = L.marker(
+                [41.1403, -8.6111],
+                {
+}
+            ).addTo(marker_cluster_0a3d698f6272928855cb50cef53d74b1);
+        
+    
+        var popup_ab57ca117b61997bf58b9b0491f15d50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e058068552dbcd7c49065c7ace2bfdb7 = $(`<div id="html_e058068552dbcd7c49065c7ace2bfdb7" style="width: 100.0%; height: 100.0%;"><b>Ponte Dom Luís I</b></div>`)[0];
+                popup_ab57ca117b61997bf58b9b0491f15d50.setContent(html_e058068552dbcd7c49065c7ace2bfdb7);
+            
+        
+
+        marker_0fd084a7844e3b560041b8a2dbe3f07d.bindPopup(popup_ab57ca117b61997bf58b9b0491f15d50)
+        ;
+
+        
+    
+    
+            marker_0fd084a7844e3b560041b8a2dbe3f07d.bindTooltip(
+                `<div>
+                     Ponte Dom Luís I
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bb180e4e8a2284ec990038735b4ae34a = L.marker(
+                [41.1413, -8.6156],
+                {
+}
+            ).addTo(marker_cluster_0a3d698f6272928855cb50cef53d74b1);
+        
+    
+        var popup_2cef9dedce0afcb24634a3b92b8b4be3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7dd0c751b1772906b966d005378181a = $(`<div id="html_b7dd0c751b1772906b966d005378181a" style="width: 100.0%; height: 100.0%;"><b>Palácio da Bolsa</b></div>`)[0];
+                popup_2cef9dedce0afcb24634a3b92b8b4be3.setContent(html_b7dd0c751b1772906b966d005378181a);
+            
+        
+
+        marker_bb180e4e8a2284ec990038735b4ae34a.bindPopup(popup_2cef9dedce0afcb24634a3b92b8b4be3)
+        ;
+
+        
+    
+    
+            marker_bb180e4e8a2284ec990038735b4ae34a.bindTooltip(
+                `<div>
+                     Palácio da Bolsa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6c829d071e560a3371afd3484f3f0b5a = L.marker(
+                [41.1512, -8.6252],
+                {
+}
+            ).addTo(marker_cluster_0a3d698f6272928855cb50cef53d74b1);
+        
+    
+        var popup_72f1a90d90dabb437631e3609505f1e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e5031ea14e3803f240a2cb22c90e0ea = $(`<div id="html_6e5031ea14e3803f240a2cb22c90e0ea" style="width: 100.0%; height: 100.0%;"><b>Jardim do Palácio de Cristal</b></div>`)[0];
+                popup_72f1a90d90dabb437631e3609505f1e4.setContent(html_6e5031ea14e3803f240a2cb22c90e0ea);
+            
+        
+
+        marker_6c829d071e560a3371afd3484f3f0b5a.bindPopup(popup_72f1a90d90dabb437631e3609505f1e4)
+        ;
+
+        
+    
+    
+            marker_6c829d071e560a3371afd3484f3f0b5a.bindTooltip(
+                `<div>
+                     Jardim do Palácio de Cristal
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            marker_cluster_0a3d698f6272928855cb50cef53d74b1.addTo(map_0780056f9ac1d3d97fbb5d5212715b20);
+        
+    
+            var circle_5d940656d9a458546dbc28e85705515d = L.circle(
+                [41.1473, -8.615],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lavender", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_0780056f9ac1d3d97fbb5d5212715b20);
+        
+    
+        var popup_c97ea9fd97895486042d345f2b653b1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f6145e66ac98d49f7622cb318bc1351 = $(`<div id="html_8f6145e66ac98d49f7622cb318bc1351" style="width: 100.0%; height: 100.0%;">Área destacada: Livraria Lello</div>`)[0];
+                popup_c97ea9fd97895486042d345f2b653b1f.setContent(html_8f6145e66ac98d49f7622cb318bc1351);
+            
+        
+
+        circle_5d940656d9a458546dbc28e85705515d.bindPopup(popup_c97ea9fd97895486042d345f2b653b1f)
+        ;
+
+        
+    
+</script>
+</html>

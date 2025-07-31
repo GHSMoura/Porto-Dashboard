@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d85dc335cd0dd177cf2e00d246d7d6bc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d85dc335cd0dd177cf2e00d246d7d6bc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d85dc335cd0dd177cf2e00d246d7d6bc = L.map(
+                "map_d85dc335cd0dd177cf2e00d246d7d6bc",
+                {
+                    center: [41.1832, -8.611],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c3ec8dbbbbaf98e576c11768f547032d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c3ec8dbbbbaf98e576c11768f547032d.addTo(map_d85dc335cd0dd177cf2e00d246d7d6bc);
+        
+    
+            var marker_ad4e3cbde2e8f8754ab206be23227704 = L.marker(
+                [41.1456, -8.614],
+                {
+}
+            ).addTo(map_d85dc335cd0dd177cf2e00d246d7d6bc);
+        
+    
+        var popup_04a866d350251d57575f08ddb29ff204 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee365593378cd3a5256b17e131a02d92 = $(`<div id="html_ee365593378cd3a5256b17e131a02d92" style="width: 100.0%; height: 100.0%;"><b>Torre dos Clérigos</b></div>`)[0];
+                popup_04a866d350251d57575f08ddb29ff204.setContent(html_ee365593378cd3a5256b17e131a02d92);
+            
+        
+
+        marker_ad4e3cbde2e8f8754ab206be23227704.bindPopup(popup_04a866d350251d57575f08ddb29ff204)
+        ;
+
+        
+    
+    
+            marker_ad4e3cbde2e8f8754ab206be23227704.bindTooltip(
+                `<div>
+                     Torre dos Clérigos
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ab47154e2d8e127a3c194719dde6078b = L.marker(
+                [41.1473, -8.615],
+                {
+}
+            ).addTo(map_d85dc335cd0dd177cf2e00d246d7d6bc);
+        
+    
+        var popup_03c8eff1902b474c0b77194c2053e8df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b3ffb6b4a4c1a0c81b5f302e6956d21 = $(`<div id="html_3b3ffb6b4a4c1a0c81b5f302e6956d21" style="width: 100.0%; height: 100.0%;"><b>Livraria Lello</b></div>`)[0];
+                popup_03c8eff1902b474c0b77194c2053e8df.setContent(html_3b3ffb6b4a4c1a0c81b5f302e6956d21);
+            
+        
+
+        marker_ab47154e2d8e127a3c194719dde6078b.bindPopup(popup_03c8eff1902b474c0b77194c2053e8df)
+        ;
+
+        
+    
+    
+            marker_ab47154e2d8e127a3c194719dde6078b.bindTooltip(
+                `<div>
+                     Livraria Lello
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e3652a7931962c3810630ddeaeb7c5cb = L.marker(
+                [41.1403, -8.6111],
+                {
+}
+            ).addTo(map_d85dc335cd0dd177cf2e00d246d7d6bc);
+        
+    
+        var popup_98725edb726378e2eb3c39ed29143d3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_308bfd2d06378f9d041e6786e7025dc0 = $(`<div id="html_308bfd2d06378f9d041e6786e7025dc0" style="width: 100.0%; height: 100.0%;"><b>Ponte Dom Luís I</b></div>`)[0];
+                popup_98725edb726378e2eb3c39ed29143d3c.setContent(html_308bfd2d06378f9d041e6786e7025dc0);
+            
+        
+
+        marker_e3652a7931962c3810630ddeaeb7c5cb.bindPopup(popup_98725edb726378e2eb3c39ed29143d3c)
+        ;
+
+        
+    
+    
+            marker_e3652a7931962c3810630ddeaeb7c5cb.bindTooltip(
+                `<div>
+                     Ponte Dom Luís I
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_502ba03714816b85f829b0c3aab66367 = L.marker(
+                [41.1413, -8.6156],
+                {
+}
+            ).addTo(map_d85dc335cd0dd177cf2e00d246d7d6bc);
+        
+    
+        var popup_b75fb4f15bd815903c2fbf4e089c349f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17af9f7d6ef635bae3885cd929850f26 = $(`<div id="html_17af9f7d6ef635bae3885cd929850f26" style="width: 100.0%; height: 100.0%;"><b>Palácio da Bolsa</b></div>`)[0];
+                popup_b75fb4f15bd815903c2fbf4e089c349f.setContent(html_17af9f7d6ef635bae3885cd929850f26);
+            
+        
+
+        marker_502ba03714816b85f829b0c3aab66367.bindPopup(popup_b75fb4f15bd815903c2fbf4e089c349f)
+        ;
+
+        
+    
+    
+            marker_502ba03714816b85f829b0c3aab66367.bindTooltip(
+                `<div>
+                     Palácio da Bolsa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c59308de94dbc5edc0d2706a869f0c6c = L.marker(
+                [41.1512, -8.6252],
+                {
+}
+            ).addTo(map_d85dc335cd0dd177cf2e00d246d7d6bc);
+        
+    
+        var popup_9a08dd3a8d7d354a9f6b3ec3d42b8b14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aff5aff15ac547131f7467b94903a306 = $(`<div id="html_aff5aff15ac547131f7467b94903a306" style="width: 100.0%; height: 100.0%;"><b>Jardim do Palácio de Cristal</b></div>`)[0];
+                popup_9a08dd3a8d7d354a9f6b3ec3d42b8b14.setContent(html_aff5aff15ac547131f7467b94903a306);
+            
+        
+
+        marker_c59308de94dbc5edc0d2706a869f0c6c.bindPopup(popup_9a08dd3a8d7d354a9f6b3ec3d42b8b14)
+        ;
+
+        
+    
+    
+            marker_c59308de94dbc5edc0d2706a869f0c6c.bindTooltip(
+                `<div>
+                     Jardim do Palácio de Cristal
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
