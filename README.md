@@ -39,9 +39,7 @@ Disponibilizar uma ferramenta visual e intuitiva para consulta de dados espaciai
 
 ---
 
-##  Captura de Tela
 
-*(adicione aqui uma imagem do dashboard em funcionamento, se quiseres)*
 
 ---
 
